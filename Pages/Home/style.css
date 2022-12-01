@@ -1,0 +1,81 @@
+.home-page-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3.7rem;
+}
+
+.bill-resume,
+.resume-cards,
+.bottom-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.bill-resume {
+  margin-top: 1.9rem;
+  margin-bottom: var(--s24);
+}
+
+.resume-cards {
+  margin-bottom: 3.2rem;
+}
+
+/* .bottom-card {
+  margin-bottom: 3.7rem;
+} */
+
+/* 
+.charge-status-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5%;
+  width: 70%;
+  height: 45%;
+}
+
+.bill-widget-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  column-gap: 4%;
+  row-gap: 5%;
+  grid-template-columns: repeat(3, var(--s360));
+  grid-template-rows: var(--s112);
+  grid-template-areas:
+    "widget1 widget2 widget3"
+    "card1 card2 card3";
+}
+
+.charging-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "card4 card5";
+  margin-top: 0.5%;
+  width: 92%;
+  height: 95%;
+  column-gap: 4%;
+}
+
+.charging-cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5%;
+  width: 70%;
+  height: 45%;
+}
+
+.bill4 {
+  background-color: violet;
+  width: 37.5%;
+  height: 100%;
+}
+
+.bill5 {
+  background-color: greenyellow;
+  width: 37.5%;
+  height: 100%;
+} */

@@ -1,0 +1,7 @@
+.modal-form h1 {
+  font-family: var(--montserrat);
+  font-size: var(--s24);
+  font-weight: 700;
+  text-align: center;
+  color: #343447;
+}

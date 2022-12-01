@@ -1,0 +1,73 @@
+.top-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem 0 10rem;
+  width: 100%;
+  margin-top: 30px;
+}
+.top-bar-content h1 {
+  font-family: var(--montserrat);
+  font-size: var(--s26);
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input-search {
+  display: flex;
+
+  height: 3.9rem;
+  width: 31.8rem;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+
+  background-image: url(../../assets/btn-lupa.png);
+  background-position: right;
+  background-position: 28rem;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 5px 7px 9px -1px rgba(241, 189, 255, 0.61);
+  box-shadow: 5px 7px 9px -1px rgba(241, 189, 255, 0.61);
+}
+.img-clients {
+  height: 32px;
+  width: 32px;
+}
+.content-imgClient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: #3f3f55;
+}
+
+.content-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn-filtro {
+  cursor: pointer;
+}
+.btn-add-client {
+  height: 3.3rem;
+  width: 26.6rem;
+  border-radius: 10px;
+  padding: 4px, 56px, 4px, 56px;
+  background: #da0175;
+  color: white;
+  border: none;
+
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

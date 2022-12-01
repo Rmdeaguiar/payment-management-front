@@ -1,0 +1,17 @@
+.link_login p,
+.link_signup p {
+  font-size: 1.4rem;
+  color: #3f3f55;
+}
+
+.link_login_btn,
+.link_signup_btn {
+  font-family: var(--nunito);
+  font-size: 600;
+  color: #da0175;
+}
+
+.link_login_btn:hover,
+.link_signup_btn:hover {
+  cursor: pointer;
+}

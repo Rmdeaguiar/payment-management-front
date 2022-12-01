@@ -1,0 +1,22 @@
+.main-page-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: var(--s108) auto;
+  grid-template-rows: var(--s112) auto;
+  grid-template-areas:
+    "side topm topm"
+    "side main main";
+}
+
+.top {
+  background-color: red;
+  grid-area: topm;
+}
+
+.main-content-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f9;
+  grid-area: main;
+}

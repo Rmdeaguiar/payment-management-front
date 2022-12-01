@@ -1,0 +1,46 @@
+.content-sidebar {
+  height: 100%;
+  width: var(--s108);
+  background: #f0f0f5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  grid-area: side;
+}
+
+.navlinks-wrapper {
+  margin-top: var(--s45);
+  height: auto;
+}
+
+.nav-link {
+  box-sizing: content-box;
+  height: var(--s82);
+  margin-bottom: var(--s72);
+  width: 100%;
+  color: #343447;
+}
+
+.nav-link span {
+  font-family: var(--nunito);
+  font-size: var(--s16);
+  font-weight: 600;
+}
+
+.clickado {
+  border-right: 3px solid #da0175;
+  border-left: 3px solid transparent;
+  color: #da0175;
+}
+
+.content-sidebar a,
+.content-sidebar div {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}

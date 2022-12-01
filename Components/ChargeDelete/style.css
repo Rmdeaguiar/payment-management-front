@@ -1,0 +1,46 @@
+.chargedelete-container {
+    width: 600px;
+    height: 400px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.chargedelete-container h1 {
+    font-family: var(--montserrat);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #CC7800;
+
+}
+.chargedelete-btns {
+    display: flex;
+    gap:20px;
+}
+.chargedelete-btns button {
+    height: 24px;
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+
+    font-family: var(--nunito);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.btn-nao {
+    background: #F2D6D0;
+    color: #AE1100;
+}
+.btn-sim {
+    background: #ACD9C5;
+    color: #034A2A;
+}

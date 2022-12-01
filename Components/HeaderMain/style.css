@@ -1,0 +1,84 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f9;
+  grid-area: topm;
+
+}
+
+.header-wrapper {
+  width: 95%;
+  border-bottom: 1px solid #acd9c5;
+}
+
+.header-content h1 {
+  margin-left: var(--s50);
+  padding-left: 12rem;
+}
+
+.header-content h2 {
+  margin-left: var(--s50);
+  padding-left: 2rem;
+}
+
+.header-content {
+  margin-top: var(--s54);
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border-name,
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user {
+  position: relative;
+  margin-right: var(--s50);
+}
+
+.border-name {
+  border-radius: 50%;
+  background: #dedee9;
+  height: 30px;
+  width: 30px;
+}
+
+.name-user {
+  margin: 0 10px;
+}
+
+.icon-down,
+.btn-edit,
+.btn-exit {
+  cursor: pointer;
+}
+
+.icon-down {
+  max-height: 16px;
+}
+
+.modal-header {
+  position: absolute;
+  top: 30px;
+  right: -45px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.btn-edit {
+  margin-right: 8px;
+}
+
+.color-green {
+  color: #0e8750;
+}

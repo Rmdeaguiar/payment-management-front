@@ -1,0 +1,146 @@
+.container-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 10rem 1rem 10rem;
+}
+
+.table-wrapper {
+  background-color: white;
+  border-radius: 30px;
+  height: auto;
+  padding-left: var(--s23);
+  padding-right: var(--s23);
+}
+
+.table-title {
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  grid-template-columns: repeat(6, 16.66%);
+  padding: 15px 10px 15px 10px;
+  width: 100%;
+  font-family: var(--nunito);
+}
+
+/* .table-title h2 {
+  width: 16%;
+} */
+
+.table-title img {
+  width: 12px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.table-clients {
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  grid-template-columns: repeat(6, 16.66%);
+  grid-template-areas: "rowContent1 rowContent2 rowContent3 rowContent4 rowContent5 rowContent6";
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid #eff0f6;
+  cursor: pointer;
+}
+
+.table-clients * {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-clients h3 {
+  padding-right: 24px;
+  font-family: var(--nunito);
+}
+
+.table-clients:first-child {
+  grid-area: rowContent1;
+}
+
+.table-clients:nth-child(2) {
+  grid-area: rowContent2;
+}
+.table-clients:nth-child(3) {
+  grid-area: rowContent3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.table-clients:nth-child(4) {
+  grid-area: rowContent4;
+}
+.table-clients:nth-child(5) {
+  grid-area: rowContent5;
+}
+
+.table-clients:last-child {
+  grid-area: rowContent6;
+}
+
+.table-clients img {
+  width: 30px;
+  cursor: pointer;
+}
+
+/* .table-email {
+  width: 16%;
+} */
+
+.table-clients h3 {
+  /* width: 16%; */
+  color: #747488;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-email {
+  width: 100%;
+  overflow: hidden;
+}
+
+.defaulter-clients-table,
+.day-clients-table {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.defaulter-clients-table h3 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ffefef;
+  color: #971d1d;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.day-clients-table h3 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #eef6f6;
+  color: #1fa7af;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.no-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}

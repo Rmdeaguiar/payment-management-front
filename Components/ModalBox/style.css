@@ -1,0 +1,37 @@
+.modalbox-backscreen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+.modal-container {
+  border-radius: 30px;
+  background-color: white;
+  position: relative;
+}
+
+.modal-edituser,
+.modal-register-client,
+.modal-edit-client,
+.modal-chargedetails,
+.modal-chargedelete {
+  padding: var(--sPD40) var(--sPD56);
+}
+
+.closebtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 3rem;
+  margin-top: 2.5rem;
+}
+
+.closebtn:hover {
+  cursor: pointer;
+}

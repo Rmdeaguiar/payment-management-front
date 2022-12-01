@@ -1,0 +1,95 @@
+.form-registerClient {
+  height: 78.3rem;
+  width: var(--s485) !important;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+.info-modalClient h1 {
+  font-family: var(--montserrat);
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 60rem;
+  line-height: 3.4rem;
+  letter-spacing: 0em;
+}
+
+.form-registerClient input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  border-radius: 58px;
+  padding: 15px;
+}
+.info-modalClient {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.img-clientes {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.form-registerClient p {
+  font-size: 10px;
+}
+
+.inputAndLabelName,
+.inputAndLabelEmail,
+.inputAndLabelAdress,
+.inputAndLabelComplement {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--nunito);
+  color: #344054;
+}
+.btn-close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+}
+.form-registerClient .input-city {
+  height: 4.4rem;
+  width: 30.03rem;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.btns-registerClient {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.btns-registerClient button {
+  height: 3.3rem;
+  width: 23.1rem;
+  border-radius: 10px;
+  padding: 4px, 87px, 4px, 87px;
+}
+.btn-cancelar-register {
+  color: #0e8750;
+  background: #f8f8f9;
+  border: 1px solid #dedee9;
+}
+.btn-aplicar-register {
+  background: #da0175;
+  color: white;
+  border: none;
+}
+.form-registerClient .error-input {
+  border: 1px solid red;
+}
+.cityAndUf input:first-child {
+  width: 30.3rem;
+  border-radius: 8px;
+  padding: 15px;
+}
+.input-Uf {
+  height: 4.4rem;
+  width: 21.6rem;
+}
